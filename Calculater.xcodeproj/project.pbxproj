@@ -14,6 +14,8 @@
 		7F021E5A1D15043600BEE955 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F021E581D15043600BEE955 /* LaunchScreen.storyboard */; };
 		7F021E651D15043700BEE955 /* CalculaterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F021E641D15043700BEE955 /* CalculaterTests.swift */; };
 		7F021E701D15043700BEE955 /* CalculaterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F021E6F1D15043700BEE955 /* CalculaterUITests.swift */; };
+		7F8856121D154EB900545B50 /* Icon in Resources */ = {isa = PBXBuildFile; fileRef = 7F8856101D154EB900545B50 /* Icon */; };
+		7F8856131D154EB900545B50 /* Let's go Digital Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7F8856111D154EB900545B50 /* Let's go Digital Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		7F021E6B1D15043700BEE955 /* CalculaterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalculaterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F021E6F1D15043700BEE955 /* CalculaterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculaterUITests.swift; sourceTree = "<group>"; };
 		7F021E711D15043700BEE955 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F8856101D154EB900545B50 /* Icon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Icon"; sourceTree = "<group>"; };
+		7F8856111D154EB900545B50 /* Let's go Digital Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Let's go Digital Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,7 @@
 				7F021E531D15043600BEE955 /* Main.storyboard */,
 				7F021E561D15043600BEE955 /* Assets.xcassets */,
 				7F021E581D15043600BEE955 /* LaunchScreen.storyboard */,
+				7F88560F1D154EB900545B50 /* Fonts */,
 				7F021E5B1D15043600BEE955 /* Info.plist */,
 			);
 			path = Calculater;
@@ -123,6 +128,15 @@
 				7F021E711D15043700BEE955 /* Info.plist */,
 			);
 			path = CalculaterUITests;
+			sourceTree = "<group>";
+		};
+		7F88560F1D154EB900545B50 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				7F8856101D154EB900545B50 /* Icon */,
+				7F8856111D154EB900545B50 /* Let's go Digital Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +246,8 @@
 				7F021E5A1D15043600BEE955 /* LaunchScreen.storyboard in Resources */,
 				7F021E571D15043600BEE955 /* Assets.xcassets in Resources */,
 				7F021E551D15043600BEE955 /* Main.storyboard in Resources */,
+				7F8856131D154EB900545B50 /* Let's go Digital Regular.ttf in Resources */,
+				7F8856121D154EB900545B50 /* Icon in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,6 +498,7 @@
 				7F021E761D15043700BEE955 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7F021E771D15043700BEE955 /* Build configuration list for PBXNativeTarget "CalculaterTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +507,7 @@
 				7F021E791D15043700BEE955 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7F021E7A1D15043700BEE955 /* Build configuration list for PBXNativeTarget "CalculaterUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +516,7 @@
 				7F021E7C1D15043700BEE955 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
